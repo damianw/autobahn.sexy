@@ -86,10 +86,19 @@ html, body, video {
     width: 100%;
     height: 100%;
     background-color: black;
+    overflow: hidden;
 }
 
 audio {
     display: none;
+}
+
+#the_box {
+    position: absolute;
+    left: 50%;
+    margin-left: -256px;
+    top: 50%;
+    margin-top: -202px;
 }
 
 /* ==========================================================================
